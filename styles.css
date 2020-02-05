@@ -10,17 +10,19 @@
   background-color: rgba(0,0,0,.4);
   font-size: 25px;
   font-weight: bold;
-  padding: 4rem;
+  padding: 2rem 4rem 1rem;
   border-radius: 5px;
-
 }
+
 .btn-outline-light{
   margin-top: 1rem;
   padding: 7px 40px;
 }
 
 .project-image{
-  width: 450px;
+  border: solid lightgray 1px;
+  width: 700px;
+  padding: 5px;
 }
 
 h1{
@@ -45,7 +47,7 @@ h1{
   box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.075), 0px 4px 30px 0px rgba(0,0,0,0.025);
   border-radius: 20px;
   padding: 5px;
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 .tech-logo img{
@@ -85,7 +87,11 @@ h1{
 
 .main-image{
   padding: 14rem 30rem;
-  background-image:url('images/background.png');
+  background-image:url('https://mymodernmet.com/wp/wp-content/uploads/2019/07/the-blue-border-kilian-schonberger-1.jpg');
   margin-bottom: 2rem;
   background-size: contain;
 }
+
+/* main{
+  background-image:url('images/background.png');
+} */

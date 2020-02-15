@@ -10,7 +10,7 @@
   background-color: rgba(0,0,0,.4);
   font-size: 25px;
   font-weight: bold;
-  padding: 2rem 4rem 1rem;
+  padding: 2rem 4rem;
   border-radius: 5px;
 }
 
@@ -39,6 +39,10 @@ h1{
   padding: 7rem 9rem;
 }
 
+.portfolio-container {
+  margin: 0 8rem;
+}
+
 .contact-btn-container{
   padding-top: 3rem;
 }
@@ -46,6 +50,11 @@ h1{
 .tech{
   margin: 30px;
 }
+/* 
+main{
+  background-image:url('./images/background.png');
+  background-size: contain;
+} */
 
 .tech-logo{
   margin: 0 auto;
@@ -92,10 +101,15 @@ h1{
 }
 
 .main-image{
-  padding: 14rem 30rem;
-  background-image:url('https://img1.wsimg.com/isteam/stock/2512/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true');
+  padding: 12rem 25rem 2rem;
+  background-image:url('./images/background.jpg');
   margin-bottom: 2rem;
-  background-size: contain;
+  /* background-size: contain; */
+  background-size: 100%;
+}
+
+.project-desc{
+  padding: 2rem;
 }
 
 /* main{

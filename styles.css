@@ -43,6 +43,14 @@ h1{
   margin: 0 8rem;
 }
 
+.contributions-container{
+  margin: 0 8rem;
+}
+
+.cont-item{
+  text-align: center;
+}
+
 .contact-btn-container{
   padding-top: 3rem;
 }
@@ -102,7 +110,7 @@ main{
 
 .main-image{
   padding: 12rem 25rem 2rem;
-  background-image:url('./images/background.jpg');
+  background-image:url('./images/background6.jpg');
   margin-bottom: 2rem;
   /* background-size: contain; */
   background-size: 100%;
@@ -110,6 +118,11 @@ main{
 
 .project-desc{
   padding: 2rem;
+}
+
+
+.portfolio-container p{
+  color: gray;
 }
 
 /* main{

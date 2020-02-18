@@ -23,6 +23,10 @@ html {
   padding: 7px 40px;
 }
 
+.featurette{
+  margin: 4rem 0;
+}
+
 .section-title{
   text-align: center;
   padding: 5rem 0;
@@ -33,8 +37,11 @@ html {
   border: solid lightgray 1px;
   width: 100%;
   padding: 5px;
+  border-radius: 2%;
 }
-
+.project-desc p{
+  text-align: justify;
+}
 h1{
   font-size: 50px;
 }
@@ -70,11 +77,22 @@ main{
 
 .tech-logo{
   margin: 0 auto;
-  max-width: 65px;
+  max-width: 75px;
   box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.075), 0px 4px 30px 0px rgba(0,0,0,0.025);
   border-radius: 20px;
-  padding: 5px;
-  /* background-color: gray; */
+  padding: 10px;
+  background-color: rgba(0,0,0,.4);
+}
+
+.contact-info{
+  font-size: 1rem;
+  font-weight: lighter;
+  color: white;
+}
+
+.contact-info img{
+  margin: 10px;
+  width:20px;
 }
 
 .tech-logo img{
@@ -124,10 +142,42 @@ main{
   padding: 2rem;
 }
 
+.col-half-offset{
+  margin-left:4.166666667%
+}
 
 .portfolio-container p{
   color: gray;
 }
+
+.social{
+  padding: 4rem 25rem 15rem;
+}
+
+.navbar-brand{
+  font-weight: bolder ;
+  color: aqua;
+}
+
+/* interactive background */
+.main-image {
+	background: linear-gradient(-45deg, #52a8ee, #0067bb, #d52f23, #e95646);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 /* main{
   background-image:url('images/background.png');

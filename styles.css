@@ -132,7 +132,7 @@ main{
 
 .main-image{
   padding: 12rem 25rem 2rem;
-  background-image:url('./images/background6.jpg');
+  background-image:url('./images/test.png');
   margin-bottom: 2rem;
   /* background-size: contain; */
   background-size: 100%;
@@ -160,8 +160,8 @@ main{
 }
 
 /* interactive background */
-.main-image {
-	background: linear-gradient(-45deg, #52a8ee, #0067bb, #d52f23, #e95646);
+/* .main-image {
+	background: linear-gradient(-45deg, #79f7ee, #00d8ca, #52d84a, #46e995);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 }
@@ -176,9 +176,9 @@ main{
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 
 /* main{
-  background-image:url('images/background.png');
+  background-image:url('https://besthqwallpapers.com/Uploads/15-4-2019/87588/program-code-black-backgrounds-programming-background-with-program-code-code.jpg');
 } */

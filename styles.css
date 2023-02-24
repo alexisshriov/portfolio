@@ -2,22 +2,33 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar{
+.row-override {
+  margin: 0px;
+}
+
+.navbar {
   padding: 10px 80px;
   background-color: rgba(0,0,0,.4);
 }
-.nav-item{
+.nav-item {
   padding: 0 20px;
 }
-.about-me{
+.about-me {
   background-color: rgba(0,0,0,.4);
   font-size: 25px;
   font-weight: bold;
   padding: 2rem 4rem;
   border-radius: 5px;
-  margin-top: 12rem;
+  margin-top: 1rem;
   margin: 0 auto;
+}
 
+.tech-stack{
+  padding: 4rem 0;
+}
+
+.social {
+  padding-bottom: 4rem;
 }
 
 .btn-outline-light{
@@ -48,11 +59,6 @@ h1{
   font-size: 50px;
 }
 
-.contact{
-  padding: 2rem 0;
-  display: flex;
-  justify-content: center;
-}
 
 
 .cont-item{
@@ -122,7 +128,7 @@ h1{
 }
 
 .main-image{
-  padding-top: 12rem;
+  padding-top: 6rem;
 
   background-image:url('./images/fondo.png');
   margin-bottom: 2rem;
@@ -141,7 +147,6 @@ h1{
 
 .navbar-brand{
   font-weight: bolder ;
-  color: aqua;
 }
 
 .contributions-container p{
@@ -149,26 +154,35 @@ h1{
 }
 
 @media only screen and (min-width: 768px) {
+  .main-image{
+    padding-top: 12rem;
+  }
   .about-me {
      width: 700px;
     }
 
-    .contact {
-      padding: 7rem 9rem;
-    }
-    
-    .portfolio-container {
-      margin: 0 8rem;
-    }
-    
-    .contributions-container{
-      margin: 0 8rem;
-    }
-
-    .social{
-      margin: 12rem;
-    }
+  .tech-stack {
+    justify-content: center;
+    padding: 7rem 9rem;
+  }
+  
+  .contributions-container {
+    margin: 0 8rem;
+  }
 } 
+
+@media only screen and (min-width: 992px) {
+  .social {
+    padding: 0 14rem 12rem;
+  }
+
+  .portfolio-container {
+    margin: 0 8rem;
+  }
+}
+
+
+
 
 /* interactive background */
 /* .main-image {
